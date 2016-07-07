@@ -23,6 +23,11 @@ public class Aluno extends Pessoa {
         this.responsavel = responsavel;
     }
 
+    @Override
+    public String toString() {
+        return "Aluno{" + "matricula=" + matricula + ", responsavel=" + responsavel + '}';
+    }
+
       
     
     
